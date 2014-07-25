@@ -39,9 +39,10 @@ And after I've recap the number of cols and rows with these unix commands.
 1
 ~$wc -l test/subject_test.txt
     2947 test/subject_test.txt
-~$egrep -i 'std|mean' features.txt | cut -d ' ' -f 1,2 | wc -l
-      86
+~$egrep 'std|mean' features.txt | cut -d ' ' -f 1,2 | wc -l
+      79
 ```
+
  And so the files' dimensions are.
  
  - **features.txt[2,561]**
@@ -55,5 +56,19 @@ And after I've recap the number of cols and rows with these unix commands.
  And the subset of measurements required at step 2 should be 86.
  
  The 1st column of the file features.txt seems to be a row counter which could be probably cut off on R.
+ 
+### 1. Get the data in R and merge data
+---------------------------------------
+Defined path and got data in R with read.table I've "combined" the data from each file by type starting from data.
+	1. X_train and X_test using features as colnames
+	2. y_train and y_test assigning colname by me
+	3. subject_train and subject_test assigning colname by me
+	
+
+
+	 
+
+
+
  
  
