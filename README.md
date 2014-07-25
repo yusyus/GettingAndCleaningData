@@ -44,13 +44,13 @@ And after I've recap the number of cols and rows with these unix commands.
 ```
  And so the files' dimensions are.
  
- -**features.txt[2,561]**
- -**train/X_train.txt[561,7352]**
- -**train/y_train.txt[1,7352]**
- -**train/subject_train.txt[1,7352]**
- -**test/X_test.txt[561,2947]**
- -**test/y_test.txt[1,2947]**
- -**test/subject_test.txt[1,2947]**
+ - **features.txt[2,561]**
+ - **train/X_train.txt[561,7352]**
+ - **train/y_train.txt[1,7352]**
+ - **train/subject_train.txt[1,7352]**
+ - **test/X_test.txt[561,2947]**
+ - **test/y_test.txt[1,2947]**
+ - **test/subject_test.txt[1,2947]**
  
  And the subset of measurements required at step 2 should be 86.
  
