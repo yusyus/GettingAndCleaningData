@@ -26,21 +26,26 @@
   AcL = read.table(ActivityLabels, stringsAsFactors=F)
   ### merge Training and test Data, by steps starting from Data
   Dstep1 <- rbind(TrD,TeD)
-  colnames(Dstep1) <- FeT[,2] # Assigne 2nd column of features.txt as colnames of merged Data
   Lstep1 <- rbind(TrL,TeL)
-  colnames(Lstep1) <- "Activity"
   Sstep1 <- rbind(TrS,TeS)
-  colnames(Sstep1) <- "Subject"
   D <- cbind(Dstep1,Lstep1,Sstep1) # Full merged DataSet
 
 ## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
   ### Create Filter to extract measurements requested
-  filter <- grep("mean\\(\\)|std\\(\\)",names(D)) # Mean and standard deviation on measures have mean() and std() string in names 
-  Dt <- D[ , which(names(D) %in% names(D)[filter])] # Filtered DataSet
+  filter <- grep("mean\\(\\)|std\\(\\)",FeT[,2]) # The 1st column in features.txt are row numbers, 2nd are Names
+  Dt <- D[,filter]
   
 ## 3. Uses descriptive activity names to name the activities in the data set
+  Lt <- merge(Lstep1,AcL,by.x="V1",by.y="V1",all=TRUE)
+#  for(i in as.single(1:nrow(Lstep1))) {
+#    Lstep$V1[i] <- AcL$V2[Lstep1$V1[i]]
+#  }
   
 ## 4. Appropriately labels the data set with descriptive variable names. 
-
-## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  colnames(Dt) <- FeT[,2][filter] # Assigne 2nd column of features.txt as colnames of merged Data
+  colnames(Lt) <- c("Activity-id","Activity")
+  colnames(Sstep1) <- "Subject"  
   
+## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  Dtidy <- cbind(Dt,Sstep1)
+  Dtidy$Activity <- Lt$Activity
