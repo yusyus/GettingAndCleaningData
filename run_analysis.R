@@ -29,11 +29,13 @@
   Lstep1 <- rbind(TrL,TeL)
   Sstep1 <- rbind(TrS,TeS)
   D <- cbind(Dstep1,Lstep1,Sstep1) # Full merged DataSet
-
+  ### write.table(D, file="MergedData.txt")   Remove comment to create the file
+  
 ## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
   ### Create Filter to extract measurements requested
   filter <- grep("mean\\(\\)|std\\(\\)",FeT[,2]) # The 1st column in features.txt are row numbers, 2nd are Names
   Dt <- D[,filter]
+  ### write.table(Dt, file="FilteredData.txt")    Remove comment to create the file
   
 ## 3. Uses descriptive activity names to name the activities in the data set
   Lt <- merge(Lstep1,AcL,by.x="V1",by.y="V1",all=TRUE)
@@ -47,8 +49,10 @@
   Dtidy <- cbind(Dt,Sstep1)
   Dtidy$Activity <- Lt$Activity
   TidyData <- aggregate(. ~ Activity + Subject, data = Dtidy, mean, na.rm=TRUE)
+  ### Renaming columns modified by aggregate
   library(stringr)
   tidyNames <- names(TidyData)
   names(TidyData) <- ifelse( tidyNames %in% c('Activity', 'Subject'), tidyNames ,str_c('AVG-by-Activity+Subject-Of->',tidyNames))
+  ### Generate final TidyData set file
   write.table(TidyData, file="TidyData.txt")
   
