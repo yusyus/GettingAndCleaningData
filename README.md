@@ -1,8 +1,15 @@
 #GettingAndCleaningData
 =======================
-##Coursera Course Project repository 
+## Coursera Course Getting and Cleaning Data Project repository 
 ------------------------------------
-I'm working on a Mac.
+This repository is dedicated to Course Project material
+
+### Environment
+----------------
+RStudio Version 0.98.501 – © 2009-2013 RStudio, Inc.
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko)
+
+## How I did it ! :)
 
 ### Taken a look at files containing data using bash
 ----------------------------------------------------
@@ -53,22 +60,37 @@ And after I've recap the number of cols and rows with these unix commands.
  - **test/y_test.txt[1,2947]**
  - **test/subject_test.txt[1,2947]**
  
- And the subset of measurements required at step 2 should be 86.
- 
- The 1st column of the file features.txt seems to be a row counter which could be probably cut off on R.
  
 ### 1. Get the data in R and merge data
 ---------------------------------------
-Defined path and got data in R with read.table I've "combined" the data from each file by type starting from data.
-	1. X_train and X_test using features as colnames
-	2. y_train and y_test assigning colname by me
-	3. subject_train and subject_test assigning colname by me
+Defined path and read data in R with read.table then "rbind" 
+the data from each file by type
+	1. X_train and X_test
+	2. y_train and y_test
+	3. subject_train and subject_test
+"cbind" the three new dataset into one, in the same order
+	4. cbind(Dstep1,Lstep1,Sstep1)
 	
+### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+----------------------------------------------------------------------------------------------
+Filtered the merged on step before considering the mean and standard of measurements only the 
+fields in the features.txt file having the strings **"mean()"** and **"std()"** in name. 
 
+### 3. Uses descriptive activity names to name the activities in the data set
+-----------------------------------------------------------------------------
+Merged the Data created on step 1. with test and training subjects with the Data from 
+activity_labels.txt
 
-	 
+### 4. Appropriately labels the data set with descriptive variable names. 
+-------------------------------------------------------------------------
+Used the 2nd column od Data from features.txt, due to the fact the 1st column considering spaces
+as separator in file is a row number, to label Data.
+Named "Activity-id" the numeric value and with "Activity" the related character label ot Data merged
+on step 3 to replace numeric value with character labels of activities
+Assigned name "Subject" to the Subject's Data. 
 
-
-
- 
- 
+### 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+------------------------------------------------------------------------------------------------------------------------
+Create a DataSet with only Data and Subjects, then added The Activity string data.
+Used aggregate on Activity and Subject of dataset to get the means and final tidy
+Data Set.
