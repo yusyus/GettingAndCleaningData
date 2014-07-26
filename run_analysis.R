@@ -29,13 +29,13 @@
   Lstep1 <- rbind(TrL,TeL)
   Sstep1 <- rbind(TrS,TeS)
   D <- cbind(Dstep1,Lstep1,Sstep1) # Full merged DataSet
-  ### write.table(D, file="MergedData.txt")   Remove comment to create the file
+  ### write.table(D, file="MergedData.txt")   Remove comment to create the file ~ 64M
   
 ## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
   ### Create Filter to extract measurements requested
   filter <- grep("mean\\(\\)|std\\(\\)",FeT[,2]) # The 1st column in features.txt are row numbers, 2nd are Names
   Dt <- D[,filter]
-  ### write.table(Dt, file="FilteredData.txt")    Remove comment to create the file
+  ### write.table(Dt, file="FilteredData.txt")    Remove comment to create the file ~ 7.8M
   
 ## 3. Uses descriptive activity names to name the activities in the data set
   Lt <- merge(Lstep1,AcL,by.x="V1",by.y="V1",all=TRUE)
