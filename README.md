@@ -18,8 +18,8 @@ run_analysis.R
 
 ```
 
-The scripts produces a txt file, TidyData.txt, which contains the average of each variable in he original set of data
-for each activity and each subject.
+The scripts produces a txt file, TidyData.txt, which contains the average of each variable in the original set of data
+for each activity and subject.
 ```
 TidyData.txt 
 
