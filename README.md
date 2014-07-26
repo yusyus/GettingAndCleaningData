@@ -1,6 +1,6 @@
-#GettingAndCleaningData
+# GettingAndCleaningData
 -----------------------
-## Coursera Course Getting and Cleaning Data Project repository 
+## What's this
 ------------------------------------
 This repository is dedicated to Course Project material
 
@@ -8,6 +8,22 @@ This repository is dedicated to Course Project material
 ----------------
 RStudio Version 0.98.501 – © 2009-2013 RStudio, Inc.
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko)
+
+## Scripts
+There's only one script run_analysis.R that must be placed and executed in the root directory where the data
+dowloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip will be
+unzipped.
+```
+run_analysis.R 
+
+```
+
+The scripts produces a txt file, TidyData.txt, which contains the average of each variable in he original set of data
+for each activity and each subject.
+```
+TidyData.txt 
+
+```
 
 ## How I did it ! :)
 

@@ -46,7 +46,9 @@
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   Dtidy <- cbind(Dt,Sstep1)
   Dtidy$Activity <- Lt$Activity
-#  TidyData <- aggregate(. ~ Dtidy$Activity + Dtidy$Subject, data = Dtidy[1:67], mean, na.rm=TRUE)
   TidyData <- aggregate(. ~ Activity + Subject, data = Dtidy, mean, na.rm=TRUE)
-  write.table(TidyData, file="TidYData.txt")
+  library(stringr)
+  tidyNames <- names(TidyData)
+  names(TidyData) <- ifelse( tidyNames %in% c('Activity', 'Subject'), tidyNames ,str_c('AVG-by-Activity+Subject-Of->',tidyNames))
+  write.table(TidyData, file="TidyData.txt")
   
