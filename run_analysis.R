@@ -37,9 +37,6 @@
   
 ## 3. Uses descriptive activity names to name the activities in the data set
   Lt <- merge(Lstep1,AcL,by.x="V1",by.y="V1",all=TRUE)
-#  for(i in as.single(1:nrow(Lstep1))) {
-#    Lstep$V1[i] <- AcL$V2[Lstep1$V1[i]]
-#  }
   
 ## 4. Appropriately labels the data set with descriptive variable names. 
   colnames(Dt) <- FeT[,2][filter] # Assigne 2nd column of features.txt as colnames of merged Data
@@ -49,3 +46,7 @@
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   Dtidy <- cbind(Dt,Sstep1)
   Dtidy$Activity <- Lt$Activity
+#  TidyData <- aggregate(. ~ Dtidy$Activity + Dtidy$Subject, data = Dtidy[1:67], mean, na.rm=TRUE)
+  TidyData <- aggregate(. ~ Activity + Subject, data = Dtidy, mean, na.rm=TRUE)
+  write.table(TidyData, file="TidYData.txt")
+  
