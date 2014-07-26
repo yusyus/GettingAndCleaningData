@@ -1,5 +1,5 @@
 #GettingAndCleaningData
-=======================
+-----------------------
 ## Coursera Course Getting and Cleaning Data Project repository 
 ------------------------------------
 This repository is dedicated to Course Project material
