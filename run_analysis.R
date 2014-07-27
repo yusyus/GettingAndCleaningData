@@ -52,7 +52,7 @@
   ### Renaming columns modified by aggregate
   library(stringr)
   tidyNames <- names(TidyData)
-  names(TidyData) <- ifelse( tidyNames %in% c('Activity', 'Subject'), tidyNames ,str_c('AVG-by-Activity+Subject-Of->',tidyNames))
+  names(TidyData) <- ifelse( tidyNames %in% c('Subject','Activity'), tidyNames ,str_c('AVG-by-Activity+Subject-Of->',tidyNames))
   ### Generate final TidyData set file
   write.table(TidyData, file="TidyData.txt")
   
