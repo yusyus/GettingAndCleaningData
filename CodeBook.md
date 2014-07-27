@@ -37,267 +37,267 @@ Colum	Variable Name
 			integer
 				[1,30]
 [,3]	"AVG-by-Activity+Subject-Of->tBodyAcc-mean()-X"
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAcc-mean()-X
 			numeric
 				[-1,1]
 [,4]	"AVG-by-Activity+Subject-Of->tBodyAcc-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAcc-mean()-Y
 			numeric
 				[-1,1]
 [,5]	"AVG-by-Activity+Subject-Of->tBodyAcc-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAcc-mean()-Z
 			numeric
 				[-1,1]
 [,6]	"AVG-by-Activity+Subject-Of->tBodyAcc-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAcc-std()-X
 			numeric
 				[-1,1]
 [,7]	"AVG-by-Activity+Subject-Of->tBodyAcc-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAcc-std()-Y
 			numeric
 				[-1,1]
 [,8]	"AVG-by-Activity+Subject-Of->tBodyAcc-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAcc-std()-Z
 			numeric
 				[-1,1]
 [,9]	"AVG-by-Activity+Subject-Of->tGravityAcc-mean()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAcc-mean()-X
 			numeric
 				[-1,1]
 [,10]	"AVG-by-Activity+Subject-Of->tGravityAcc-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAcc-mean()-Y
 			numeric
 				[-1,1]
 [,11]	"AVG-by-Activity+Subject-Of->tGravityAcc-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAcc-mean()-Z
 			numeric
 				[-1,1]
 [,12]	"AVG-by-Activity+Subject-Of->tGravityAcc-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAcc-std()-X
 			numeric
 				[-1,1]
 [,13]	"AVG-by-Activity+Subject-Of->tGravityAcc-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAcc-std()-Y
 			numeric
 				[-1,1]
 [,14]	"AVG-by-Activity+Subject-Of->tGravityAcc-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAcc-std()-Z
 			numeric
 				[-1,1]
 [,15]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-mean()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerk-mean()-X
 			numeric
 				[-1,1]
 [,16]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerk-mean()-Y
 			numeric
 				[-1,1]
 [,17]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerk-mean()-Z
 			numeric
 				[-1,1]
 [,18]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerk-std()-X
 			numeric
 				[-1,1]
 [,19]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerk-std()-Y
 			numeric
 				[-1,1]
 [,20]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerk-std()-Z
 			numeric
 				[-1,1]
 [,21]	"AVG-by-Activity+Subject-Of->tBodyGyro-mean()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyro-mean()-X
 			numeric
 				[-1,1]
 [,22]	"AVG-by-Activity+Subject-Of->tBodyGyro-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyro-mean()-Y
 			numeric
 				[-1,1]
 [,23]	"AVG-by-Activity+Subject-Of->tBodyGyro-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyro-mean()-Z
 			numeric
 				[-1,1]
 [,24]	"AVG-by-Activity+Subject-Of->tBodyGyro-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyro-std()-X
 			numeric
 				[-1,1]
 [,25]	"AVG-by-Activity+Subject-Of->tBodyGyro-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyro-std()-Y
 			numeric
 				[-1,1]
 [,26]	"AVG-by-Activity+Subject-Of->tBodyGyro-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyro-std()-Z
 			numeric
 				[-1,1]
 [,27]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-mean()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerk-mean()-X
 			numeric
 				[-1,1]
 [,28]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerk-mean()-Y
 			numeric
 				[-1,1]
 [,29]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerk-mean()-Z
 			numeric
 				[-1,1]
 [,30]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerk-std()-X
 			numeric
 				[-1,1]
 [,31]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerk-std()-Y
 			numeric
 				[-1,1]
 [,32]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerk-std()-Z
 			numeric
 				[-1,1]
 [,33]	"AVG-by-Activity+Subject-Of->tBodyAccMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccMag-mean()
 			numeric
 				[-1,1]
 [,34]	"AVG-by-Activity+Subject-Of->tBodyAccMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccMag-std()
 			numeric
 				[-1,1]
 [,35]	"AVG-by-Activity+Subject-Of->tGravityAccMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAccMag-mean()
 			numeric
 				[-1,1]
 [,36]	"AVG-by-Activity+Subject-Of->tGravityAccMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tGravityAccMag-std()
 			numeric
 				[-1,1]
 [,37]	"AVG-by-Activity+Subject-Of->tBodyAccJerkMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerkMag-mean()
 			numeric
 				[-1,1]
 [,38]	"AVG-by-Activity+Subject-Of->tBodyAccJerkMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyAccJerkMag-std()
 			numeric
 				[-1,1]
 [,39]	"AVG-by-Activity+Subject-Of->tBodyGyroMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroMag-mean()
 			numeric
 				[-1,1]
 [,40]	"AVG-by-Activity+Subject-Of->tBodyGyroMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroMag-std()
 			numeric
 				[-1,1]
 [,41]	"AVG-by-Activity+Subject-Of->tBodyGyroJerkMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerkMag-mean()
 			numeric
 				[-1,1]
 [,42]	"AVG-by-Activity+Subject-Of->tBodyGyroJerkMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure tBodyGyroJerkMag-std()
 			numeric
 				[-1,1]
 [,43]	"AVG-by-Activity+Subject-Of->fBodyAcc-mean()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAcc-mean()-X
 			numeric
 				[-1,1]
 [,44]	"AVG-by-Activity+Subject-Of->fBodyAcc-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAcc-mean()-Y
 			numeric
 				[-1,1]
 [,45]	"AVG-by-Activity+Subject-Of->fBodyAcc-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAcc-mean()-Z
 			numeric
 				[-1,1]
 [,46]	"AVG-by-Activity+Subject-Of->fBodyAcc-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAcc-std()-X
 			numeric
 				[-1,1]
 [,47]	"AVG-by-Activity+Subject-Of->fBodyAcc-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAcc-std()-Y
 			numeric
 				[-1,1]
 [,48]	"AVG-by-Activity+Subject-Of->fBodyAcc-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAcc-std()-Z
 			numeric
 				[-1,1]
 [,49]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-mean()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccJerk-mean()-X
 			numeric
 				[-1,1]
 [,50]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccJerk-mean()-Y
 			numeric
 				[-1,1]
 [,51]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccJerk-mean()-Z
 			numeric
 				[-1,1]
 [,52]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccJerk-std()-X
 			numeric
 				[-1,1]
 [,53]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccJerk-std()-Y
 			numeric
 				[-1,1]
 [,54]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccJerk-std()-Z
 			numeric
 				[-1,1]
 [,55]	"AVG-by-Activity+Subject-Of->fBodyGyro-mean()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyGyro-mean()-X"
 			numeric
 				[-1,1]
 [,56]	"AVG-by-Activity+Subject-Of->fBodyGyro-mean()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyGyro-mean()-Y
 			numeric
 				[-1,1]
 [,57]	"AVG-by-Activity+Subject-Of->fBodyGyro-mean()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyGyro-mean()-Z
 			numeric
 				[-1,1]
 [,58]	"AVG-by-Activity+Subject-Of->fBodyGyro-std()-X"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyGyro-std()-X
 			numeric
 				[-1,1]
 [,59]	"AVG-by-Activity+Subject-Of->fBodyGyro-std()-Y"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyGyro-std()-Y
 			numeric
 				[-1,1]
 [,60]	"AVG-by-Activity+Subject-Of->fBodyGyro-std()-Z"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyGyro-std()-Z
 			numeric
 				[-1,1]
 [,61]	"AVG-by-Activity+Subject-Of->fBodyAccMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccMag-mean()
 			numeric
 				[-1,1]
 [,62]	"AVG-by-Activity+Subject-Of->fBodyAccMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyAccMag-std()
 			numeric
 				[-1,1]
 [,63]	"AVG-by-Activity+Subject-Of->fBodyBodyAccJerkMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyBodyAccJerkMag-mean()
 			numeric
 				[-1,1]
 [,64]	"AVG-by-Activity+Subject-Of->fBodyBodyAccJerkMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyBodyAccJerkMag-std()
 			numeric
 				[-1,1]
 [,65]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyBodyGyroMag-mean()
 			numeric
 				[-1,1]
 [,66]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyBodyGyroMag-std()
 			numeric
 				[-1,1]
 [,67]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroJerkMag-mean()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyBodyGyroJerkMag-mean()
 			numeric
 				[-1,1]
 [,68]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroJerkMag-std()"	
-		Average by Activity and Subject of values of measure identified in the original data by the name of this column cutting off the string AVG-by-Activity+Subject-Of->
+		Average by Activity and Subject of values of measure fBodyBodyGyroJerkMag-std()
 			numeric
 				[-1,1]
 ```				
