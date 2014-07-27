@@ -18,12 +18,14 @@ and frequency domain. See 'features_info.txt' for more details.
 # Format
 ==================================================================
 ```
-Colum	Variable Name	
+Colum	
+	Variable Name	
 		Description of Variable
 			Variable dataType 
 				Allowed Values
 
-[,1]	"Activity" 
+[,1]
+	Activity 
 		Description of the activity done by subject while taking the measure		
 			character	
 				"WALKING" 
@@ -32,274 +34,177 @@ Colum	Variable Name
 				"LAYING"
 				"WALKING_DOWNSTAIRS"
 				"SITTING" 
-[,2]	"Subject" 
+[,2] 
+	Subject
 		Identifier of each Subject in training and/or tests  
 			integer
 				[1,30]
-[,3]	"AVG-by-Activity+Subject-Of->tBodyAcc-mean()-X"
+[,3]
+	AVG.by.Activity.Subject.Of..tBodyAcc.mean...X
 		Average by Activity and Subject of values of measure tBodyAcc-mean()-X
 			numeric
-				[-1,1]
-[,4]	"AVG-by-Activity+Subject-Of->tBodyAcc-mean()-Y"	
+				[0.2422984,0.279178]
+[,4]
+	AVG.by.Activity.Subject.Of..tBodyAcc.mean...Y
 		Average by Activity and Subject of values of measure tBodyAcc-mean()-Y
 			numeric
-				[-1,1]
-[,5]	"AVG-by-Activity+Subject-Of->tBodyAcc-mean()-Z"	
+				[-0.03165614,-0.01445371]
+[,5]
+	AVG.by.Activity.Subject.Of..tBodyAcc.mean...Z
 		Average by Activity and Subject of values of measure tBodyAcc-mean()-Z
 			numeric
-				[-1,1]
-[,6]	"AVG-by-Activity+Subject-Of->tBodyAcc-std()-X"	
+				[-0.1182772,-0.1009859]
+[,6]
+	AVG.by.Activity.Subject.Of..tBodyAcc.std...X
 		Average by Activity and Subject of values of measure tBodyAcc-std()-X
 			numeric
-				[-1,1]
-[,7]	"AVG-by-Activity+Subject-Of->tBodyAcc-std()-Y"	
+				[-0.9950412,0.07648325]
+[,7]
+	AVG.by.Activity.Subject.Of..tBodyAcc.std...Y
 		Average by Activity and Subject of values of measure tBodyAcc-std()-Y
 			numeric
-				[-1,1]
-[,8]	"AVG-by-Activity+Subject-Of->tBodyAcc-std()-Z"	
+				[-0.9794135,0.2199528]
+[,8]
+	AVG.by.Activity.Subject.Of..tBodyAcc.std...Z
 		Average by Activity and Subject of values of measure tBodyAcc-std()-Z
 			numeric
-				[-1,1]
-[,9]	"AVG-by-Activity+Subject-Of->tGravityAcc-mean()-X"	
+				[-0.9809765,-0.09351844]
+[,9]
+	AVG.by.Activity.Subject.Of..tGravityAcc.mean...X
 		Average by Activity and Subject of values of measure tGravityAcc-mean()-X
 			numeric
-				[-1,1]
-[,10]	"AVG-by-Activity+Subject-Of->tGravityAcc-mean()-Y"	
+				[0.4412361,0.9083996]
+[,10]
+	AVG.by.Activity.Subject.Of..tGravityAcc.mean...Y
 		Average by Activity and Subject of values of measure tGravityAcc-mean()-Y
 			numeric
-				[-1,1]
-[,11]	"AVG-by-Activity+Subject-Of->tGravityAcc-mean()-Z"	
+				[-0.3507692,0.2005692]
+[,11]
+	AVG.by.Activity.Subject.Of..tGravityAcc.mean...Z
 		Average by Activity and Subject of values of measure tGravityAcc-mean()-Z
 			numeric
-				[-1,1]
-[,12]	"AVG-by-Activity+Subject-Of->tGravityAcc-std()-X"	
+				[-0.2781956,0.2662334]
+[,12]
+	AVG.by.Activity.Subject.Of..tGravityAcc.std...X
 		Average by Activity and Subject of values of measure tGravityAcc-std()-X
 			numeric
-				[-1,1]
-[,13]	"AVG-by-Activity+Subject-Of->tGravityAcc-std()-Y"	
+				[-0.9933494,-0.9396738]
+[,13]
+	AVG.by.Activity.Subject.Of..tGravityAcc.std...Y
 		Average by Activity and Subject of values of measure tGravityAcc-std()-Y
 			numeric
-				[-1,1]
-[,14]	"AVG-by-Activity+Subject-Of->tGravityAcc-std()-Z"	
+				[-0.984761,-0.9010888]
+[,14]
+	AVG.by.Activity.Subject.Of..tGravityAcc.std...Z
 		Average by Activity and Subject of values of measure tGravityAcc-std()-Z
 			numeric
-				[-1,1]
-[,15]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-mean()-X"	
+				[-0.9812917,-0.8806823]
+[,15]
+	AVG.by.Activity.Subject.Of..tBodyAccJerk.mean...X
 		Average by Activity and Subject of values of measure tBodyAccJerk-mean()-X
 			numeric
-				[-1,1]
-[,16]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-mean()-Y"	
+				[0.06860954,0.1058972]
+[,16]
+	AVG.by.Activity.Subject.Of..tBodyAccJerk.mean...Y
 		Average by Activity and Subject of values of measure tBodyAccJerk-mean()-Y
 			numeric
-				[-1,1]
-[,17]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-mean()-Z"	
+				[-0.001372015,0.0320775]
+[,17]
+	AVG.by.Activity.Subject.Of..tBodyAccJerk.mean...Z
 		Average by Activity and Subject of values of measure tBodyAccJerk-mean()-Z
 			numeric
-				[-1,1]
-[,18]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-std()-X"	
+				[-0.03269836,0.003644949]
+[,18]
+	AVG.by.Activity.Subject.Of..tBodyAccJerk.std...X
 		Average by Activity and Subject of values of measure tBodyAccJerk-std()-X
 			numeric
-				[-1,1]
-[,19]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-std()-Y"	
+				[-0.9940199,0.02960141]
+[,19]
+	AVG.by.Activity.Subject.Of..tBodyAccJerk.std...Y
 		Average by Activity and Subject of values of measure tBodyAccJerk-std()-Y
 			numeric
-				[-1,1]
-[,20]	"AVG-by-Activity+Subject-Of->tBodyAccJerk-std()-Z"	
+				[-0.9891581,-0.02709766]
+[,20]
+	AVG.by.Activity.Subject.Of..tBodyAccJerk.std...Z
 		Average by Activity and Subject of values of measure tBodyAccJerk-std()-Z
 			numeric
-				[-1,1]
-[,21]	"AVG-by-Activity+Subject-Of->tBodyGyro-mean()-X"	
+				[-0.9920044,-0.4446409]
+[,21]
+	AVG.by.Activity.Subject.Of..tBodyGyro.mean...X
 		Average by Activity and Subject of values of measure tBodyGyro-mean()-X
 			numeric
-				[-1,1]
-[,22]	"AVG-by-Activity+Subject-Of->tBodyGyro-mean()-Y"	
+				[-0.07352915,0.1196143]
+[,22]
+	AVG.by.Activity.Subject.Of..tBodyGyro.mean...Y
 		Average by Activity and Subject of values of measure tBodyGyro-mean()-Y
 			numeric
-				[-1,1]
-[,23]	"AVG-by-Activity+Subject-Of->tBodyGyro-mean()-Z"	
+				[-0.1721622,-0.04514369]
+[,23]
+	AVG.by.Activity.Subject.Of..tBodyGyro.mean...Z
 		Average by Activity and Subject of values of measure tBodyGyro-mean()-Z
 			numeric
-				[-1,1]
-[,24]	"AVG-by-Activity+Subject-Of->tBodyGyro-std()-X"	
+				[-0.004647508,0.1090929]
+[,24]
+	AVG.by.Activity.Subject.Of..tBodyGyro.std...X
 		Average by Activity and Subject of values of measure tBodyGyro-std()-X
 			numeric
-				[-1,1]
-[,25]	"AVG-by-Activity+Subject-Of->tBodyGyro-std()-Y"	
+				[-0.98698,-0.3775986]
+[,25]
+	AVG.by.Activity.Subject.Of..tBodyGyro.std...Y
 		Average by Activity and Subject of values of measure tBodyGyro-std()-Y
 			numeric
-				[-1,1]
-[,26]	"AVG-by-Activity+Subject-Of->tBodyGyro-std()-Z"	
+				[-0.9850732,-0.3989594]
+[,26]
+	AVG.by.Activity.Subject.Of..tBodyGyro.std...Z
 		Average by Activity and Subject of values of measure tBodyGyro-std()-Z
 			numeric
-				[-1,1]
-[,27]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-mean()-X"	
+				[-0.9879376,-0.1330599]
+[,27]
+	AVG.by.Activity.Subject.Of..tBodyGyroJerk.mean...X
 		Average by Activity and Subject of values of measure tBodyGyroJerk-mean()-X
 			numeric
-				[-1,1]
-[,28]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-mean()-Y"	
+				[-0.1190509,-0.07311344]
+[,28]
+	AVG.by.Activity.Subject.Of..tBodyGyroJerk.mean...Y
 		Average by Activity and Subject of values of measure tBodyGyroJerk-mean()-Y
 			numeric
-				[-1,1]
-[,29]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-mean()-Z"	
+				[-0.05937561,-0.03687653]
+[,29]
+	AVG.by.Activity.Subject.Of..tBodyGyroJerk.mean...Z
 		Average by Activity and Subject of values of measure tBodyGyroJerk-mean()-Z
 			numeric
-				[-1,1]
-[,30]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-std()-X"	
+				[-0.07434227,-0.04506938]
+[,30]
+	AVG.by.Activity.Subject.Of..tBodyGyroJerk.std...X
 		Average by Activity and Subject of values of measure tBodyGyroJerk-std()-X
 			numeric
-				[-1,1]
-[,31]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-std()-Y"	
+				[-0.9918541,-0.3889556]
+[,31]
+	AVG.by.Activity.Subject.Of..tBodyGyroJerk.std...Y
 		Average by Activity and Subject of values of measure tBodyGyroJerk-std()-Y
 			numeric
-				[-1,1]
-[,32]	"AVG-by-Activity+Subject-Of->tBodyGyroJerk-std()-Z"	
+				[-0.9933181,-0.5460436]
+[,32]
+	AVG.by.Activity.Subject.Of..tBodyGyroJerk.std...Z
 		Average by Activity and Subject of values of measure tBodyGyroJerk-std()-Z
 			numeric
-				[-1,1]
-[,33]	"AVG-by-Activity+Subject-Of->tBodyAccMag-mean()"	
+				[-0.9934003,-0.482172]
+[,33]
+	AVG.by.Activity.Subject.Of..tBodyAccMag.mean..
 		Average by Activity and Subject of values of measure tBodyAccMag-mean()
 			numeric
-				[-1,1]
-[,34]	"AVG-by-Activity+Subject-Of->tBodyAccMag-std()"	
+				[-0.985419,0.1945987]
+[,34]
+	AVG.by.Activity.Subject.Of..tBodyAccMag.std..
 		Average by Activity and Subject of values of measure tBodyAccMag-std()
 			numeric
-				[-1,1]
-[,35]	"AVG-by-Activity+Subject-Of->tGravityAccMag-mean()"	
+				[-0.9868265,-0.1268889]
+[,35]
+	AVG.by.Activity.Subject.Of..tGravityAccMag.mean..
 		Average by Activity and Subject of values of measure tGravityAccMag-mean()
 			numeric
-				[-1,1]
-[,36]	"AVG-by-Activity+Subject-Of->tGravityAccMag-std()"	
-		Average by Activity and Subject of values of measure tGravityAccMag-std()
-			numeric
-				[-1,1]
-[,37]	"AVG-by-Activity+Subject-Of->tBodyAccJerkMag-mean()"	
-		Average by Activity and Subject of values of measure tBodyAccJerkMag-mean()
-			numeric
-				[-1,1]
-[,38]	"AVG-by-Activity+Subject-Of->tBodyAccJerkMag-std()"	
-		Average by Activity and Subject of values of measure tBodyAccJerkMag-std()
-			numeric
-				[-1,1]
-[,39]	"AVG-by-Activity+Subject-Of->tBodyGyroMag-mean()"	
-		Average by Activity and Subject of values of measure tBodyGyroMag-mean()
-			numeric
-				[-1,1]
-[,40]	"AVG-by-Activity+Subject-Of->tBodyGyroMag-std()"	
-		Average by Activity and Subject of values of measure tBodyGyroMag-std()
-			numeric
-				[-1,1]
-[,41]	"AVG-by-Activity+Subject-Of->tBodyGyroJerkMag-mean()"	
-		Average by Activity and Subject of values of measure tBodyGyroJerkMag-mean()
-			numeric
-				[-1,1]
-[,42]	"AVG-by-Activity+Subject-Of->tBodyGyroJerkMag-std()"	
-		Average by Activity and Subject of values of measure tBodyGyroJerkMag-std()
-			numeric
-				[-1,1]
-[,43]	"AVG-by-Activity+Subject-Of->fBodyAcc-mean()-X"	
-		Average by Activity and Subject of values of measure fBodyAcc-mean()-X
-			numeric
-				[-1,1]
-[,44]	"AVG-by-Activity+Subject-Of->fBodyAcc-mean()-Y"	
-		Average by Activity and Subject of values of measure fBodyAcc-mean()-Y
-			numeric
-				[-1,1]
-[,45]	"AVG-by-Activity+Subject-Of->fBodyAcc-mean()-Z"	
-		Average by Activity and Subject of values of measure fBodyAcc-mean()-Z
-			numeric
-				[-1,1]
-[,46]	"AVG-by-Activity+Subject-Of->fBodyAcc-std()-X"	
-		Average by Activity and Subject of values of measure fBodyAcc-std()-X
-			numeric
-				[-1,1]
-[,47]	"AVG-by-Activity+Subject-Of->fBodyAcc-std()-Y"	
-		Average by Activity and Subject of values of measure fBodyAcc-std()-Y
-			numeric
-				[-1,1]
-[,48]	"AVG-by-Activity+Subject-Of->fBodyAcc-std()-Z"	
-		Average by Activity and Subject of values of measure fBodyAcc-std()-Z
-			numeric
-				[-1,1]
-[,49]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-mean()-X"	
-		Average by Activity and Subject of values of measure fBodyAccJerk-mean()-X
-			numeric
-				[-1,1]
-[,50]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-mean()-Y"	
-		Average by Activity and Subject of values of measure fBodyAccJerk-mean()-Y
-			numeric
-				[-1,1]
-[,51]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-mean()-Z"	
-		Average by Activity and Subject of values of measure fBodyAccJerk-mean()-Z
-			numeric
-				[-1,1]
-[,52]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-std()-X"	
-		Average by Activity and Subject of values of measure fBodyAccJerk-std()-X
-			numeric
-				[-1,1]
-[,53]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-std()-Y"	
-		Average by Activity and Subject of values of measure fBodyAccJerk-std()-Y
-			numeric
-				[-1,1]
-[,54]	"AVG-by-Activity+Subject-Of->fBodyAccJerk-std()-Z"	
-		Average by Activity and Subject of values of measure fBodyAccJerk-std()-Z
-			numeric
-				[-1,1]
-[,55]	"AVG-by-Activity+Subject-Of->fBodyGyro-mean()-X"	
-		Average by Activity and Subject of values of measure fBodyGyro-mean()-X"
-			numeric
-				[-1,1]
-[,56]	"AVG-by-Activity+Subject-Of->fBodyGyro-mean()-Y"	
-		Average by Activity and Subject of values of measure fBodyGyro-mean()-Y
-			numeric
-				[-1,1]
-[,57]	"AVG-by-Activity+Subject-Of->fBodyGyro-mean()-Z"	
-		Average by Activity and Subject of values of measure fBodyGyro-mean()-Z
-			numeric
-				[-1,1]
-[,58]	"AVG-by-Activity+Subject-Of->fBodyGyro-std()-X"	
-		Average by Activity and Subject of values of measure fBodyGyro-std()-X
-			numeric
-				[-1,1]
-[,59]	"AVG-by-Activity+Subject-Of->fBodyGyro-std()-Y"	
-		Average by Activity and Subject of values of measure fBodyGyro-std()-Y
-			numeric
-				[-1,1]
-[,60]	"AVG-by-Activity+Subject-Of->fBodyGyro-std()-Z"	
-		Average by Activity and Subject of values of measure fBodyGyro-std()-Z
-			numeric
-				[-1,1]
-[,61]	"AVG-by-Activity+Subject-Of->fBodyAccMag-mean()"	
-		Average by Activity and Subject of values of measure fBodyAccMag-mean()
-			numeric
-				[-1,1]
-[,62]	"AVG-by-Activity+Subject-Of->fBodyAccMag-std()"	
-		Average by Activity and Subject of values of measure fBodyAccMag-std()
-			numeric
-				[-1,1]
-[,63]	"AVG-by-Activity+Subject-Of->fBodyBodyAccJerkMag-mean()"	
-		Average by Activity and Subject of values of measure fBodyBodyAccJerkMag-mean()
-			numeric
-				[-1,1]
-[,64]	"AVG-by-Activity+Subject-Of->fBodyBodyAccJerkMag-std()"	
-		Average by Activity and Subject of values of measure fBodyBodyAccJerkMag-std()
-			numeric
-				[-1,1]
-[,65]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroMag-mean()"	
-		Average by Activity and Subject of values of measure fBodyBodyGyroMag-mean()
-			numeric
-				[-1,1]
-[,66]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroMag-std()"	
-		Average by Activity and Subject of values of measure fBodyBodyGyroMag-std()
-			numeric
-				[-1,1]
-[,67]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroJerkMag-mean()"	
-		Average by Activity and Subject of values of measure fBodyBodyGyroJerkMag-mean()
-			numeric
-				[-1,1]
-[,68]	"AVG-by-Activity+Subject-Of->fBodyBodyGyroJerkMag-std()"	
-		Average by Activity and Subject of values of measure fBodyBodyGyroJerkMag-std()
-			numeric
-				[-1,1]
+				[-0.985419,0.1945987]
+
 ```				
 # Original Data description
 ---------------------------			
