@@ -48,7 +48,7 @@
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   Dtidy <- cbind(Dt,Sstep1)
   Dtidy$Activity <- Lt$Activity
-  TidyData <- aggregate(. ~ Activity + Subject, data = Dtidy, mean, na.rm=TRUE)
+  TidyData <- aggregate(. ~ Subject + Activity, data = Dtidy, mean, na.rm=TRUE)
   ### Renaming columns modified by aggregate
   library(stringr)
   tidyNames <- names(TidyData)
