@@ -14,15 +14,42 @@ There's only one script run_analysis.R that must be placed and executed in the r
 dowloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip will be
 unzipped.
 ```
-run_analysis.R 
-
+activity_labels.txt
+features.txt
+features_info.txt
+README.txt
+run_analysis.R
+	train
+		y_train.txt
+		subject_train.txt
+		X_train.txt
+		Inertial Signals
+	test
+		y_test.txt
+		subject_test.txt
+		X_test.txt
+		Inertial Signals
 ```
 
 The scripts produces a txt file, TidyData.txt, which contains the average of each variable in the original set of data
 for each activity and subject.
 ```
-TidyData.txt 
-
+activity_labels.txt
+features.txt
+features_info.txt
+README.txt
+TidyData.txt
+run_analysis.R
+	train
+		y_train.txt
+		subject_train.txt
+		X_train.txt
+		Inertial Signals
+	test
+		y_test.txt
+		subject_test.txt
+		X_test.txt
+		Inertial Signals
 ```
 
 ## How I did it ! :)
